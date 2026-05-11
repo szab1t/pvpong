@@ -15,8 +15,8 @@ fps = 144
 #betutipus
 font = pygame.font.Font(None,40)
 
-szabi_wins = pygame.image.load("szabi_wins.png")
-bogi_wins = pygame.image.load("bogi_wins.png")
+szabi_wins = pygame.image.load("pvpong/szabi_wins.png")
+bogi_wins = pygame.image.load("pvpong/bogi_wins.png")
 
 bogi_wins = pygame.transform.smoothscale(bogi_wins,(screen_width,screen_height))
 szabi_wins = pygame.transform.smoothscale(szabi_wins,(screen_width,screen_height))
